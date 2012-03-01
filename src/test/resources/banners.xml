@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Banners>
+    <Banner>
+        <id>14820</id>
+        <BannerPath>text/80348.jpg</BannerPath>
+        <BannerType>series</BannerType>
+        <BannerType2>text</BannerType2>
+        <Language>en</Language>
+        <Season></Season>
+    </Banner>
+    <Banner>
+        <id>14821</id>
+        <BannerPath>blank/80348.jpg</BannerPath>
+        <BannerType>series</BannerType>
+        <BannerType2>blank</BannerType2>
+        <Language></Language>
+        <Season></Season>
+    </Banner>
+    <Banner>
+        <id>14827</id>
+        <BannerPath>graphical/80348-g.jpg</BannerPath>
+        <BannerType>series</BannerType>
+        <BannerType2>graphical</BannerType2>
+        <Language>en</Language>
+        <Season></Season>
+    </Banner>
+    <Banner>
+        <id>15217</id>
+        <BannerPath>seasons/80348-1.jpg</BannerPath>
+        <BannerType>season</BannerType>
+        <BannerType2>season</BannerType2>
+        <Language>en</Language>
+        <Season>1</Season>
+    </Banner>
+</Banners>

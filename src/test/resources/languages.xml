@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Languages>
+    <Language>
+        <name>English</name>
+        <abbreviation>en</abbreviation>
+        <id>7</id>
+    </Language>
+    <Language>
+        <name>Español</name>
+        <abbreviation>es</abbreviation>
+        <id>16</id>
+    </Language>
+    <Language>
+        <name>Français</name>
+        <abbreviation>fr</abbreviation>
+        <id>17</id>
+    </Language>
+    <Language>
+        <name>Hebrew</name>
+        <abbreviation>he</abbreviation>
+        <id>24</id>
+    </Language>
+</Languages>

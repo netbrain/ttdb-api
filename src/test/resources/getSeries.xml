@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Items>
+    <Item>
+        <seriesid>73739</seriesid>
+        <language>no</language>
+        <translation>Lost</translation>
+    </Item>
+    <Item>
+        <seriesid>73739</seriesid>
+        <language>it</language>
+        <translation>Lost</translation>
+    </Item>
+    <Item>
+        <seriesid>73739</seriesid>
+        <language>de</language>
+        <translation>Lost</translation>
+    </Item>
+    <Item>
+        <seriesid>73739</seriesid>
+        <language>en</language>
+        <translation>Lost</translation>
+    </Item>
+    <Item>
+        <seriesid>73739</seriesid>
+        <language>nl</language>
+        <translation>Lost</translation>
+    </Item>
+    <Item>
+        <seriesid>71150</seriesid>
+        <language>en</language>
+        <translation>Lost at Home</translation>
+    </Item>
+    <Item>
+        <seriesid>71177</seriesid>
+        <language>en</language>
+        <translation>Land of the Lost</translation>
+    </Item>
+    <Item>
+        <seriesid>71225</seriesid>
+        <language>en</language>
+        <translation>Lost on Earth</translation>
+    </Item>
+    <Item>
+        <seriesid>72906</seriesid>
+        <language>en</language>
+        <translation>Lost (2001)</translation>
+    </Item>
+    <Item>
+        <seriesid>72923</seriesid>
+        <language>en</language>
+        <translation>Lost in Space</translation>
+    </Item>
+</Items>
