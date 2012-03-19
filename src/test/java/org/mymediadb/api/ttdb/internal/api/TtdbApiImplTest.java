@@ -1,6 +1,7 @@
 package org.mymediadb.api.ttdb.internal.api;
 
 
+import static org.junit.Assume.*;
 import org.junit.Before;
 import org.junit.Test;
 import org.mymediadb.api.ttdb.api.TtdbApi;
@@ -21,6 +22,7 @@ public class TtdbApiImplTest {
     @Before
     public void setup() {
         ttdbApi = TtdbApiImpl.getInstance();
+        assumeNotNull(ttdbApi.getApiKey());
     }
 
     @Test

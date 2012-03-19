@@ -23,12 +23,13 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <scm.repo>scm:git:git@github.com:netbrain/${project.artifactId}.git</scm.repo>
     </properties>
 
     <groupId>org.mymediadb</groupId>
     <artifactId>ttdb-api</artifactId>
-    <version>0.1.0</version>
-    <name>${pom.artifactId}</name>
+    <version>0.1.0-SNAPSHOT</version>
+    <name>${project.artifactId}</name>
 
     <dependencies>
         <dependency>
@@ -57,18 +58,40 @@
         </dependency>
     </dependencies>
 
-    <repositories>
+    <scm>
+        <connection>${scm.repo}</connection>
+        <url>${scm.repo}</url>
+        <developerConnection>${scm.repo}</developerConnection>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.2.2</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <distributionManagement>
         <repository>
-            <id>maven2-repository.dev.java.net</id>
-            <name>Java.net Repository for Maven</name>
-            <url>http://download.java.net/maven/2/</url>
-            <layout>default</layout>
+            <id>mmdb-releases</id>
+            <name>mmdb releases repository</name>
+            <url>http://test.mymediadb.org/nexus/content/repositories/releases</url>
         </repository>
-        <repository>
-            <id>maven-repository.dev.java.net</id>
-            <name>Java.net Maven 1 Repository (legacy)</name>
-            <url>http://download.java.net/maven/1</url>
-            <layout>legacy</layout>
-        </repository>
-    </repositories>
+        <snapshotRepository>
+            <id>mmdb-snapshots</id>
+            <name>mmdb snapshots repository</name>
+            <url>http://test.mymediadb.org/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
